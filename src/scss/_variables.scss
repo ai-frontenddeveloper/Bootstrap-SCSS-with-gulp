@@ -1,0 +1,26 @@
+$blue-color: #074495;
+$grey-color: #DFDFDF;
+
+$theme-colors: (
+    "primary":    $blue-color,
+    "secondary":  $grey-color
+  );
+
+  $border-radius:0;
+  $dropdown-padding-y: 0;
+  $dropdown-item-padding-y:1rem;
+  $dropdown-item-padding-x:1rem;
+  $dropdown-link-color:  #535353;
+  $dropdown-link-hover-color:#084496;
+  $dropdown-link-hover-bg: #F5F5F5;
+  // Tables
+  $table-accent-bg: #F5F5F5;
+  $table-cell-padding: 1rem .75rem;
+
+  .btn-min-width{
+    min-width: 140px;
+  }
+  .table thead tr th{
+    color: $blue-color;
+    font-weight: 700;
+  }
